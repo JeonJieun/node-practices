@@ -14,9 +14,9 @@
 [mysite] $ npm i winston-daily-rotate-file
 [mysite] $ npm i moment
 
-[mysite] $ npm -D nodemon o
-[mysite] $ npm -D mocha
-[mysite] $ npm -D chai
+[mysite] $ npm i -D nodemon o
+[mysite] $ npm i -D mocha
+[mysite] $ npm i -D chai
 
 ```
 
@@ -31,23 +31,21 @@
 ```
 
 #### project structure
-<pre> 
-                                    []: git에다 올리지 말 것
-
+<pre>
 /mysite
     |--- index.js
     |--- package.json
     |--- package-lock.json
-    |--- [node-modules]             // 라이브러리 패키지들
+    |--- [node-modules]
     |--- test
     |--- logging
     |--- [logs]
     |       |--- [error]
     |--- [multer-temporary-store]
-    |--- config                     // 프로세스에다가 환경변수 설정
+    |--- config
     |--- public
+    |       |--- [upload-images]
     |       |--- assets
-    |               |--- [upload-images]
     |               |--- css
     |               |--- images
     |               |--- js
@@ -56,14 +54,14 @@
     |       |--- admin
     |--- models
     |--- views
-    |       |--- main
-    |       |--- user
-    |       |--- board
-    |       |--- guestbook
-    |       |--- gallery
-    |       |--- includes
-    |       |--- admin
-    |               |--- includes
-    
+            |--- main
+            |--- user
+            |--- board
+            |--- guestbook
+            |--- gallery
+            |--- includes
+            |--- admin
+                    |--- includes        
 </pre>
+
 
