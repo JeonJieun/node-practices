@@ -42,4 +42,4 @@ process.env.PROFILE === 'dev' && logger.add(new winston.transports.Console({
   format: winston.format.combine(winston.format.colorize(), winston.format.simple())
 }));
 
-module.exports = logger; 
+module.exports = logger;
